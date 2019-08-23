@@ -24,7 +24,8 @@ module.exports = {
       inline: true,
       contentBase: './build',
       port: 8301,
-      stats: { colors: true }
+      stats: { colors: true },
+      disableHostCheck:true
     },
     entry: {
       index: [
@@ -82,7 +83,7 @@ module.exports = {
         title: 'your app title',
         template: './app/index.html',
       }),
-      new OpenBrowserPlugin({ url: 'http://localhost:8080' }),
+      //new OpenBrowserPlugin({ url: 'http://localhost:8080' }),
       new ExtractTextPlugin("main.css", {
           allChunks: true,
           disable: false
