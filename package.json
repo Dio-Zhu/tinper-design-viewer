@@ -41,11 +41,13 @@
   },
   "homepage": "https://github.com/GuoYongfeng/webpack-dev-boilerplate#readme",
   "dependencies": {
+    "bee-datepicker": "^2.2.7",
+    "bee-page-layout": "~1.0.1",
+    "bee-timepicker": "^2.0.4",
     "better-npm-run": "latest",
     "react": "~15.6.2",
     "react-dom": "~15.6.2",
     "tinper-bee": "~2.1.6",
-    "bee-page-layout": "~1.0.1",
     "zzj-genview": "latest"
   },
   "devDependencies": {

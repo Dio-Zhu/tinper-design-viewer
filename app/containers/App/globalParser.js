@@ -58,6 +58,9 @@ import {
     Drawer,
     TreeSelect
 } from 'tinper-bee';
+
+import DatePicker from 'bee-datepicker';
+import Timepicker from 'bee-timepicker';
 import PageLayout from 'bee-page-layout';
 
 export default {
@@ -137,5 +140,7 @@ export default {
     SearchPanel: SearchPanel,
     Affix:Affix,
     Drawer:Drawer,
-    TreeSelect:TreeSelect
+    TreeSelect:TreeSelect,
+    DatePicker:DatePicker,
+    Timepicker:Timepicker
 };
