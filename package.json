@@ -1,10 +1,10 @@
 {
   "name": "tinper-design-viewer",
-  "version": "0.1.0",
-  "description": "将tinper-design库集成至可视化界面设计器的预览器",
+  "version": "0.2.0",
+  "description": "基于tinper-design的可视化预览器",
   "main": "app/index.jsx",
   "scripts": {
-    "dev": "./node_modules/.bin/webpack-dev-server --progress --host 0.0.0.0",
+    "start": "./node_modules/.bin/webpack-dev-server --progress --host 0.0.0.0",
     "build": "./node_modules/.bin/webpack --progress --colors --config webpack.prod.config.js",
     "lint": "./node_modules/.bin/eslint app",
     "clean": "rm -rf build/*",
@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GuoYongfeng/webpack-dev-boilerplate.git"
+    "url": "git+https://github.com/Dio-Zhu/tinper-design-viewer.git"
   },
   "keywords": [
     "react",
@@ -34,21 +34,20 @@
     "es6",
     "babel"
   ],
-  "author": "guoyongfeng",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/GuoYongfeng/webpack-dev-boilerplate/issues"
+    "url": "https://github.com/Dio-Zhu/tinper-design-viewer/issues"
   },
-  "homepage": "https://github.com/GuoYongfeng/webpack-dev-boilerplate#readme",
   "dependencies": {
-    "bee-datepicker": "^2.2.7",
-    "bee-page-layout": "~1.0.1",
-    "bee-timepicker": "^2.0.5",
     "better-npm-run": "latest",
-    "react": "~15.6.2",
-    "react-dom": "~15.6.2",
-    "tinper-bee": "~2.1.6",
-    "zzj-genview": "latest"
+    "react": "latest",
+    "react-dom": "latest",
+    "bee-datepicker": "latest",
+    "bee-timepicker": "latest",
+    "bee-page-layout": "latest",
+    "tinper-bee": "latest",
+    "ide-sdk-render-react": "latest",
+    "ide-sdk-viewer": "latest"
   },
   "devDependencies": {
     "babel-core": "^6.7.2",

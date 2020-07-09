@@ -30,7 +30,7 @@ module.exports = {
     entry: {
       index: [
         'webpack/hot/dev-server',
-        'webpack-dev-server/client?http://localhost:8080',
+        'webpack-dev-server/client?http://localhost:8301',
         path.resolve(__dirname, 'app/index.js')
       ],
       vendor: ['react', 'react-dom']
@@ -48,7 +48,6 @@ module.exports = {
     devtool: 'source-map',
     'display-error-details': true,
     // 使用externals可以将react分离，然后用<script>单独将react引入
-    externals: [],
     module: {
       loaders: [
         {
